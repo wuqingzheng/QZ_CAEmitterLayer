@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0B705C20243571006427E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B705B20243571006427E8 /* AppDelegate.m */; };
+		CF0B705F20243571006427E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B705E20243571006427E8 /* ViewController.m */; };
+		CF0B706220243571006427E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0B706020243571006427E8 /* Main.storyboard */; };
+		CF0B706420243571006427E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0B706320243571006427E8 /* Assets.xcassets */; };
+		CF0B706720243571006427E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0B706520243571006427E8 /* LaunchScreen.storyboard */; };
+		CF0B706A20243571006427E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B706920243571006427E8 /* main.m */; };
+		CF0B707420243571006427E8 /* QZ_CAEmitterLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B707320243571006427E8 /* QZ_CAEmitterLayerTests.m */; };
+		CF0B70842028246C006427E8 /* SnowEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B70832028246C006427E8 /* SnowEmitterLayer.m */; };
+		CF0B7087202827AC006427E8 /* RainEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B7086202827AC006427E8 /* RainEmitterLayer.m */; };
+		CF0B708D2028AF61006427E8 /* CloudEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0B708C2028AF61006427E8 /* CloudEmitterLayer.m */; };
+		CFC579B42029C8B6005F5B2B /* weather_fog_day_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579AD2029C8B5005F5B2B /* weather_fog_day_static.jpg */; };
+		CFC579B52029C8B6005F5B2B /* weather_rain_day_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579AE2029C8B5005F5B2B /* weather_rain_day_static.jpg */; };
+		CFC579B62029C8B6005F5B2B /* weather_sunny_night_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579AF2029C8B5005F5B2B /* weather_sunny_night_static.jpg */; };
+		CFC579B72029C8B6005F5B2B /* weather_haze_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579B02029C8B5005F5B2B /* weather_haze_static.jpg */; };
+		CFC579B82029C8B6005F5B2B /* weather_sunny_day_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579B12029C8B5005F5B2B /* weather_sunny_day_static.jpg */; };
+		CFC579B92029C8B6005F5B2B /* weather_na_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579B22029C8B5005F5B2B /* weather_na_static.jpg */; };
+		CFC579BA2029C8B6005F5B2B /* weather_snow_day_static.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFC579B32029C8B5005F5B2B /* weather_snow_day_static.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF0B707020243571006427E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0B704F20243571006427E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0B705620243571006427E8;
+			remoteInfo = QZ_CAEmitterLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0B705720243571006427E8 /* QZ_CAEmitterLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZ_CAEmitterLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0B705A20243571006427E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF0B705B20243571006427E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF0B705D20243571006427E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF0B705E20243571006427E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF0B706120243571006427E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF0B706320243571006427E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF0B706620243571006427E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF0B706820243571006427E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0B706920243571006427E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF0B706F20243571006427E8 /* QZ_CAEmitterLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZ_CAEmitterLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0B707320243571006427E8 /* QZ_CAEmitterLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZ_CAEmitterLayerTests.m; sourceTree = "<group>"; };
+		CF0B707520243571006427E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0B70822028246C006427E8 /* SnowEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnowEmitterLayer.h; sourceTree = "<group>"; };
+		CF0B70832028246C006427E8 /* SnowEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowEmitterLayer.m; sourceTree = "<group>"; };
+		CF0B7085202827AC006427E8 /* RainEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainEmitterLayer.h; sourceTree = "<group>"; };
+		CF0B7086202827AC006427E8 /* RainEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainEmitterLayer.m; sourceTree = "<group>"; };
+		CF0B708B2028AF61006427E8 /* CloudEmitterLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CloudEmitterLayer.h; sourceTree = "<group>"; };
+		CF0B708C2028AF61006427E8 /* CloudEmitterLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CloudEmitterLayer.m; sourceTree = "<group>"; };
+		CFC579AD2029C8B5005F5B2B /* weather_fog_day_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_fog_day_static.jpg; sourceTree = "<group>"; };
+		CFC579AE2029C8B5005F5B2B /* weather_rain_day_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_rain_day_static.jpg; sourceTree = "<group>"; };
+		CFC579AF2029C8B5005F5B2B /* weather_sunny_night_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_sunny_night_static.jpg; sourceTree = "<group>"; };
+		CFC579B02029C8B5005F5B2B /* weather_haze_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_haze_static.jpg; sourceTree = "<group>"; };
+		CFC579B12029C8B5005F5B2B /* weather_sunny_day_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_sunny_day_static.jpg; sourceTree = "<group>"; };
+		CFC579B22029C8B5005F5B2B /* weather_na_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_na_static.jpg; sourceTree = "<group>"; };
+		CFC579B32029C8B5005F5B2B /* weather_snow_day_static.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weather_snow_day_static.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0B705420243571006427E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0B706C20243571006427E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0B704E20243571006427E8 = {
+			isa = PBXGroup;
+			children = (
+				CF0B705920243571006427E8 /* QZ_CAEmitterLayer */,
+				CF0B707220243571006427E8 /* QZ_CAEmitterLayerTests */,
+				CF0B705820243571006427E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0B705820243571006427E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0B705720243571006427E8 /* QZ_CAEmitterLayer.app */,
+				CF0B706F20243571006427E8 /* QZ_CAEmitterLayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF0B705920243571006427E8 /* QZ_CAEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CF0B7081202823EF006427E8 /* BaseEmitterLayer */,
+				CF0B705A20243571006427E8 /* AppDelegate.h */,
+				CF0B705B20243571006427E8 /* AppDelegate.m */,
+				CF0B705D20243571006427E8 /* ViewController.h */,
+				CF0B705E20243571006427E8 /* ViewController.m */,
+				CF0B706020243571006427E8 /* Main.storyboard */,
+				CF0B706320243571006427E8 /* Assets.xcassets */,
+				CF0B706520243571006427E8 /* LaunchScreen.storyboard */,
+				CF0B706820243571006427E8 /* Info.plist */,
+				CF0B706920243571006427E8 /* main.m */,
+				CFC579AC2029C8B5005F5B2B /* resource */,
+			);
+			path = QZ_CAEmitterLayer;
+			sourceTree = "<group>";
+		};
+		CF0B707220243571006427E8 /* QZ_CAEmitterLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0B707320243571006427E8 /* QZ_CAEmitterLayerTests.m */,
+				CF0B707520243571006427E8 /* Info.plist */,
+			);
+			path = QZ_CAEmitterLayerTests;
+			sourceTree = "<group>";
+		};
+		CF0B7081202823EF006427E8 /* BaseEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CF0B70822028246C006427E8 /* SnowEmitterLayer.h */,
+				CF0B70832028246C006427E8 /* SnowEmitterLayer.m */,
+				CF0B7085202827AC006427E8 /* RainEmitterLayer.h */,
+				CF0B7086202827AC006427E8 /* RainEmitterLayer.m */,
+				CF0B708B2028AF61006427E8 /* CloudEmitterLayer.h */,
+				CF0B708C2028AF61006427E8 /* CloudEmitterLayer.m */,
+			);
+			path = BaseEmitterLayer;
+			sourceTree = "<group>";
+		};
+		CFC579AC2029C8B5005F5B2B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CFC579AD2029C8B5005F5B2B /* weather_fog_day_static.jpg */,
+				CFC579AE2029C8B5005F5B2B /* weather_rain_day_static.jpg */,
+				CFC579AF2029C8B5005F5B2B /* weather_sunny_night_static.jpg */,
+				CFC579B02029C8B5005F5B2B /* weather_haze_static.jpg */,
+				CFC579B12029C8B5005F5B2B /* weather_sunny_day_static.jpg */,
+				CFC579B22029C8B5005F5B2B /* weather_na_static.jpg */,
+				CFC579B32029C8B5005F5B2B /* weather_snow_day_static.jpg */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0B705620243571006427E8 /* QZ_CAEmitterLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0B707820243571006427E8 /* Build configuration list for PBXNativeTarget "QZ_CAEmitterLayer" */;
+			buildPhases = (
+				CF0B705320243571006427E8 /* Sources */,
+				CF0B705420243571006427E8 /* Frameworks */,
+				CF0B705520243571006427E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZ_CAEmitterLayer;
+			productName = QZ_CAEmitterLayer;
+			productReference = CF0B705720243571006427E8 /* QZ_CAEmitterLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF0B706E20243571006427E8 /* QZ_CAEmitterLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0B707B20243571006427E8 /* Build configuration list for PBXNativeTarget "QZ_CAEmitterLayerTests" */;
+			buildPhases = (
+				CF0B706B20243571006427E8 /* Sources */,
+				CF0B706C20243571006427E8 /* Frameworks */,
+				CF0B706D20243571006427E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0B707120243571006427E8 /* PBXTargetDependency */,
+			);
+			name = QZ_CAEmitterLayerTests;
+			productName = QZ_CAEmitterLayerTests;
+			productReference = CF0B706F20243571006427E8 /* QZ_CAEmitterLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0B704F20243571006427E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = dazheng_wu;
+				TargetAttributes = {
+					CF0B705620243571006427E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CF0B706E20243571006427E8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF0B705620243571006427E8;
+					};
+				};
+			};
+			buildConfigurationList = CF0B705220243571006427E8 /* Build configuration list for PBXProject "QZ_CAEmitterLayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0B704E20243571006427E8;
+			productRefGroup = CF0B705820243571006427E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0B705620243571006427E8 /* QZ_CAEmitterLayer */,
+				CF0B706E20243571006427E8 /* QZ_CAEmitterLayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0B705520243571006427E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC579B92029C8B6005F5B2B /* weather_na_static.jpg in Resources */,
+				CFC579B52029C8B6005F5B2B /* weather_rain_day_static.jpg in Resources */,
+				CFC579B72029C8B6005F5B2B /* weather_haze_static.jpg in Resources */,
+				CFC579B42029C8B6005F5B2B /* weather_fog_day_static.jpg in Resources */,
+				CFC579BA2029C8B6005F5B2B /* weather_snow_day_static.jpg in Resources */,
+				CFC579B82029C8B6005F5B2B /* weather_sunny_day_static.jpg in Resources */,
+				CF0B706720243571006427E8 /* LaunchScreen.storyboard in Resources */,
+				CFC579B62029C8B6005F5B2B /* weather_sunny_night_static.jpg in Resources */,
+				CF0B706420243571006427E8 /* Assets.xcassets in Resources */,
+				CF0B706220243571006427E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0B706D20243571006427E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0B705320243571006427E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0B7087202827AC006427E8 /* RainEmitterLayer.m in Sources */,
+				CF0B705F20243571006427E8 /* ViewController.m in Sources */,
+				CF0B706A20243571006427E8 /* main.m in Sources */,
+				CF0B705C20243571006427E8 /* AppDelegate.m in Sources */,
+				CF0B708D2028AF61006427E8 /* CloudEmitterLayer.m in Sources */,
+				CF0B70842028246C006427E8 /* SnowEmitterLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0B706B20243571006427E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0B707420243571006427E8 /* QZ_CAEmitterLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF0B707120243571006427E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0B705620243571006427E8 /* QZ_CAEmitterLayer */;
+			targetProxy = CF0B707020243571006427E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF0B706020243571006427E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0B706120243571006427E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF0B706520243571006427E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0B706620243571006427E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF0B707620243571006427E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF0B707720243571006427E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0B707920243571006427E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633UF3BWJG;
+				INFOPLIST_FILE = QZ_CAEmitterLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lvxun.QZ-CAEmitterLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0B707A20243571006427E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633UF3BWJG;
+				INFOPLIST_FILE = QZ_CAEmitterLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lvxun.QZ-CAEmitterLayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF0B707C20243571006427E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633UF3BWJG;
+				INFOPLIST_FILE = QZ_CAEmitterLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lvxun.QZ-CAEmitterLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZ_CAEmitterLayer.app/QZ_CAEmitterLayer";
+			};
+			name = Debug;
+		};
+		CF0B707D20243571006427E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 633UF3BWJG;
+				INFOPLIST_FILE = QZ_CAEmitterLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lvxun.QZ-CAEmitterLayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZ_CAEmitterLayer.app/QZ_CAEmitterLayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0B705220243571006427E8 /* Build configuration list for PBXProject "QZ_CAEmitterLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0B707620243571006427E8 /* Debug */,
+				CF0B707720243571006427E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0B707820243571006427E8 /* Build configuration list for PBXNativeTarget "QZ_CAEmitterLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0B707920243571006427E8 /* Debug */,
+				CF0B707A20243571006427E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0B707B20243571006427E8 /* Build configuration list for PBXNativeTarget "QZ_CAEmitterLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0B707C20243571006427E8 /* Debug */,
+				CF0B707D20243571006427E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0B704F20243571006427E8 /* Project object */;
+}
