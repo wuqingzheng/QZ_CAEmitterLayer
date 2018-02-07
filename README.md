@@ -1,9 +1,12 @@
 # QZ_CAEmitterLayer
-A simple weather animation (including rain, snow, cloudy, haze, lightning, etc.)
-
+A simple weather animation including Rain, Snow, Cloudy, Haze, Lightning, etc.
 
 ---
+![夜间多云](http://o8r94qm0m.bkt.clouddn.com/cloud_night.gif)  | ![日间多云](http://o8r94qm0m.bkt.clouddn.com/cloud_day.gif)  | ![大雨](http://o8r94qm0m.bkt.clouddn.com/rain_heavy.gif) 
+:-------------: | :-------------: | :-------------: 
+**夜间多云**  | **日间多云** | **大雨** 
 
-![多云](http://o8r94qm0m.bkt.clouddn.com/cloud.gif)
-![下雪](http://o8r94qm0m.bkt.clouddn.com/snow.gif)
-![下雨](http://o8r94qm0m.bkt.clouddn.com/rain.gif)
+![雨夹雪](http://o8r94qm0m.bkt.clouddn.com/sleet.gif)  | ![大雪](http://o8r94qm0m.bkt.clouddn.com/snow_heavy.gif)  | ![小雨](http://o8r94qm0m.bkt.clouddn.com/rain_light_2.gif) 
+:-------------: | :-------------: | :-------------: 
+**雨夹雪**  | **小雪** | **小雨**
+
